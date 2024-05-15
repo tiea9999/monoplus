@@ -18,8 +18,6 @@ function getParameterByName(name) {
 	results = regex.exec(location.search);
 	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
-
-
 </script>
 <script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
 
